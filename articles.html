@@ -1,102 +1,205 @@
 <!doctype html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Artículos de Misterio - Misterios del Mundo</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Artículos | Misterios del Mundo</title>
+  <meta name="description" content="Lee todos los artículos sobre misterios, enigmas y fenómenos inexplicables en Misterios del Mundo." />
+
+  <!-- Script de AdSense -->
+  <script async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7120787016677328"
+    crossorigin="anonymous"></script>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: #f7f7f7;
+      color: #333;
+    }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 15px 20px;
+    }
+    nav a {
+      color: #fff;
+      margin-right: 15px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+      background: #fff;
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    .ad-slot {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: scale(1.03);
+    }
+    .card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+    }
+    .card-content {
+      padding: 15px;
+    }
+    .card-content h3 {
+      margin-top: 0;
+      font-size: 1.2rem;
+    }
+    .card-content p {
+      font-size: 0.9rem;
+      color: #666;
+    }
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    footer a {
+      color: #ddd;
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <h1>Artículos de Misterio</h1>
     <nav>
       <a href="index.html">Inicio</a>
-      <a href="articles.html">Artículos</a>
-      <a href="about.html">Sobre Nosotros</a>
-      <a href="contact.html">Contacto</a>
+      <a href="articulos.html">Artículos</a>
+      <a href="sobre.html">Sobre Nosotros</a>
+      <a href="contacto.html">Contacto</a>
     </nav>
   </header>
 
+  <!-- Anuncio: después del header -->
+  <div class="ad-slot">
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-7120787016677328"
+         data-ad-slot="4724058384"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+
   <main>
-    <article>
-      <h2>El Triángulo de las Bermudas</h2>
-      <p>
-        El Triángulo de las Bermudas es una región del océano Atlántico delimitada aproximadamente por Miami, Puerto Rico y las islas Bermudas.
-        Desde mediados del siglo XX se popularizaron relatos sobre la desaparición inexplicada de barcos y aviones en esa área. Algunos casos famosos
-        incluyen la pérdida del vuelo 19 en 1945 —cinco bombarderos estadounidenses que realizaron una misión de entrenamiento y nunca regresaron—
-        y la desaparición del buque SS Marine Sulphur Queen en 1963.
-      </p>
-      <p>
-        A lo largo de los años se han propuesto múltiples explicaciones. Algunas son naturales y plausibles: tormentas súbitas y huracanes que arrastran
-        embarcaciones, errores humanos o fallos mecánicos, corrientes marinas potentes que dispersan restos y dificultan las tareas de búsqueda.
-        También se han estudiado fenómenos geológicos, como burbujas de hidrato de metano que podrían disminuir la flotabilidad del agua y hacer
-        que un barco zozobre rápidamente. Los estudios científicos tienden a priorizar estas explicaciones por su coherencia con la evidencia disponible.
-      </p>
-      <p>
-        En contraste con explicaciones naturales, han surgido teorías más especulativas: anomalías magnéticas, portales dimensionales o intervención
-        extraterrestre. Estas hipótesis carecen de pruebas reproducibles y suelen apoyarse en relatos anecdóticos, por lo que la comunidad científica
-        las considera menos probables. La combinación de condiciones meteorológicas adversas, errores de navegación y la gran densidad de tráfico
-        marítimo y aéreo en esa región explican buena parte de los incidentes reportados.
-      </p>
-      <p>
-        En definitiva, el Triángulo de las Bermudas mantiene su aura de misterio en la cultura popular, pero la mayoría de los expertos sostiene que
-        no existe una única causa mágica; en su lugar, una suma de factores explicables científicamente es la explicación más razonable.
-      </p>
-    </article>
+    <h1>Artículos de Misterio</h1>
+    <p style="text-align:center; max-width: 700px; margin:auto;">
+      Aquí encontrarás todos nuestros artículos sobre fenómenos inexplicables, historias paranormales y enigmas históricos.
+    </p>
 
-    <article>
-      <h2>Las luces de Hessdalen</h2>
-      <p>
-        En un valle remoto del centro de Noruega, conocido como Hessdalen, desde finales de los años setenta se observan luminosidades extrañas
-        que aparecen en el cielo y se mueven con patrones poco comunes. Las luces varían en tamaño, color e intensidad: a veces parecen esferas
-        brillantes flotando a baja altura; otras veces se desplazan rápidamente siguiendo trayectorias que no corresponden a aeronaves convencionales.
-      </p>
-      <p>
-        La comunidad científica y aficionados han estudiado este fenómeno por décadas. Se han registrado fotografías, vídeos y mediciones con instrumentos
-        y sensores instalados en la zona (el proyecto Hessdalen fue uno de los primeros intentos sistemáticos de monitorización). Varias teorías intentan
-        explicar su origen: ionización de aire por causas geofísicas, descargas piezoeléctricas en rocas ricas en ciertos minerales, plasmas luminosos
-        o combustión de gases naturales. Ninguna hipótesis ha logrado explicar todos los casos observados de manera concluyente.
-      </p>
-      <p>
-        Lo interesante de Hessdalen es que se trata de un fenómeno repetible en un lugar concreto, lo que facilita el estudio. Investigadores han instalado
-        cámaras y equipos que registran datos continuamente; algunos eventos coinciden con lecturas electromagnéticas anómalas y con sonidos reportados
-        por testigos. Esto ha permitido avanzar en el análisis y descartar, en muchos casos, ilusiones ópticas o fraudes.
-      </p>
-      <p>
-        Para el visitante curioso, Hessdalen es un buen ejemplo de cómo lo inexplicado puede abordarse mediante investigación sistemática. Aunque no exista
-        aún una teoría definitiva, la acumulación de datos está acercando al fenómeno a explicaciones naturales y verificables, y a la vez conserva su
-        fascinación como uno de los enigmas modernos del mundo natural.
-      </p>
-    </article>
+    <!-- Anuncio en medio del contenido -->
+    <div class="ad-slot">
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-7120787016677328"
+           data-ad-slot="4724058384"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
 
-    <article>
-      <h2>El enigma de las Líneas de Nazca</h2>
-      <p>
-        Las Líneas de Nazca, en el desierto de la costa sur del Perú, son un conjunto de geoglifos gigantes trazados sobre la superficie terrestre.
-        Formas de animales, figuras geométricas y líneas rectas que se extienden durante kilómetros conforman un paisaje que solo puede apreciarse
-        en su totalidad desde el aire. Se datan principalmente entre 500 a.C. y 500 d.C., y han despertado multitud de teorías sobre su propósito.
-      </p>
-      <p>
-        Investigadores como Paul Kosok y María Reiche dedicaron décadas al estudio y conservación de estos trazados. Las hipótesis sobre su función incluyen
-        calendarios astronómicos, caminos rituales, ofrendas a deidades relacionadas con el agua y sistemas de marcación para observaciones celestes.
-        Estudios recientes han encontrado evidencias de que muchas líneas guardan correlación con puntos de interés geográfico y zonas de recursos hídricos,
-        lo que sugiere un componente ritual-pragmático asociado a la agricultura y la gestión del agua en un entorno árido.
-      </p>
-      <p>
-        Otra pregunta recurrente es cómo se realizaron: con herramientas sencillas y planificación cuidadosa, los constructores removieron piedras oscuras dejando
-        a la vista la tierra de tono claro. La vista aérea, que hoy resulta la manera más inmediata de observarlas, probablemente no era la intención directa
-        de sus creadores; sí lo fueron las líneas como marcas en el paisaje con una función cultural y social clara en su contexto histórico.
-      </p>
-      <p>
-        Las Líneas de Nazca son hoy un patrimonio que exige conservación frente a amenazas naturales y humanas. Protegen un relato cultural que combina
-        ingenio técnico con simbolismo, y aunque algunas preguntas permanezcan abiertas, la investigación interdisciplinaria aporta explicaciones sólidas
-        sobre su significado y su elaboración.
-      </p>
-    </article>
+    <div class="grid">
+      <!-- Tarjeta 1 -->
+      <div class="card">
+        <img src="https://picsum.photos/400/200?random=5" alt="El Triángulo de las Bermudas">
+        <div class="card-content">
+          <h3>El Triángulo de las Bermudas</h3>
+          <p>Historias, desapariciones y explicaciones científicas de este enigmático lugar.</p>
+        </div>
+      </div>
+      <!-- Tarjeta 2 -->
+      <div class="card">
+        <img src="https://picsum.photos/400/200?random=6" alt="El misterio de las Pirámides">
+        <div class="card-content">
+          <h3>El misterio de las Pirámides</h3>
+          <p>¿Cómo lograron los egipcios levantar estas maravillas que aún nos sorprenden?</p>
+        </div>
+      </div>
+      <!-- Tarjeta 3 -->
+      <div class="card">
+        <img src="https://picsum.photos/400/200?random=7" alt="Avistamientos OVNI">
+        <div class="card-content">
+          <h3>Avistamientos OVNI</h3>
+          <p>Testimonios y registros oficiales de encuentros con objetos no identificados.</p>
+        </div>
+      </div>
+      <!-- Tarjeta 4 -->
+      <div class="card">
+        <img src="https://picsum.photos/400/200?random=8" alt="Criaturas míticas">
+        <div class="card-content">
+          <h3>Criaturas míticas</h3>
+          <p>Desde dragones hasta hombres lobo, ¿qué hay detrás de estas leyendas?</p>
+        </div>
+      </div>
+      <!-- Tarjeta 5 -->
+      <div class="card">
+        <img src="https://picsum.photos/400/200?random=9" alt="Ciudades perdidas">
+        <div class="card-content">
+          <h3>Ciudades perdidas</h3>
+          <p>El Dorado, Atlántida y otros lugares que siguen fascinando a exploradores.</p>
+        </div>
+      </div>
+      <!-- Tarjeta 6 -->
+      <div class="card">
+        <img src="https://picsum.photos/400/200?random=10" alt="Fenómenos paranormales">
+        <div class="card-content">
+          <h3>Fenómenos paranormales</h3>
+          <p>Casos inquietantes de apariciones, casas encantadas y sucesos sin explicación.</p>
+        </div>
+      </div>
+    </div>
   </main>
 
+  <!-- Anuncio: antes del footer -->
+  <div class="ad-slot">
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-7120787016677328"
+         data-ad-slot="4724058384"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+
   <footer>
-    <p>© 2025 Misterios del Mundo | <a href="privacy.html">Política de Privacidad</a></p>
+    © 2025 Misterios del Mundo | <a href="privacy.html">Política de Privacidad</a>
   </footer>
 </body>
 </html>
