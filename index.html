@@ -9,6 +9,18 @@
   <!-- Script global de AdSense: reemplaza ca-pub-REEMPLAZA-TU-ID por tu ID real -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7120787016677328"
           crossorigin="anonymous"></script>
+   <style>
+    /* estilos simples para los slots de anuncio */
+    .ad-slot { 
+      max-width: 100%; 
+      margin: 18px auto; 
+      text-align: center; 
+    }
+    /* ejemplo: se puede fijar alturas/anchos por pantalla siguiendo la guía de AdSense */
+    @media (min-width: 800px) {
+      .ad-slot { margin: 24px 0; }
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -20,8 +32,37 @@
       <a href="contact.html">Contacto</a>
     </nav>
   </header>
-
+ <!-- ====== A: Anuncio justo después del header ====== -->
+  <div class="ad-slot ad-after-header" aria-hidden="true">
+    <!-- Bloque adaptativo (AD UNIT 1) -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-7120787016677328"
+         data-ad-slot="6403971560"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div> 
   <main>
+    <h1>Bienvenido al rincón de lo inexplicable</h1>
+
+    <p>Aquí exploramos historias de misterio, fenómenos paranormales y sucesos que aún no tienen explicación.</p>
+
+    <!-- ====== B: Anuncio dentro del contenido / después del primer párrafo ====== -->
+    <div class="ad-slot ad-mid-content" aria-hidden="true">
+      <!-- Bloque adaptativo (AD UNIT 2) -->
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-7120787016677328"
+           data-ad-slot="5007129417"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>   
     <section class="recent-articles">
   <h2>Artículos recientes</h2>
   <div class="article-list">
@@ -56,7 +97,19 @@
     </section>
 
   </main>
-
+<!-- ====== C: Anuncio antes del footer ====== -->
+  <div class="ad-slot ad-before-footer" aria-hidden="true">
+    <!-- Bloque adaptativo (AD UNIT 3) -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-7120787016677328"
+         data-ad-slot="3578497678"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
   <footer>
     <p>© 2025 Misterios del Mundo | <a href="privacy.html">Política de Privacidad</a></p>
   </footer>
