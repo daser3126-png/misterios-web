@@ -1,105 +1,182 @@
 <!doctype html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Misterios del Mundo</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Explora historias de misterio, fenómenos paranormales y sucesos inexplicables en Misterios del Mundo." />
 
-  <!-- Script global de AdSense: reemplaza ca-pub-REEMPLAZA-TU-ID por tu ID real -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7120787016677328"
-          crossorigin="anonymous"></script>
-   <style>
-    /* estilos simples para los slots de anuncio */
-    .ad-slot { 
-      max-width: 100%; 
-      margin: 18px auto; 
-      text-align: center; 
+  <!-- Script de AdSense -->
+  <script async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7120787016677328"
+    crossorigin="anonymous"></script>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: #f7f7f7;
+      color: #333;
     }
-    /* ejemplo: se puede fijar alturas/anchos por pantalla siguiendo la guía de AdSense */
-    @media (min-width: 800px) {
-      .ad-slot { margin: 24px 0; }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 15px 20px;
+    }
+    nav a {
+      color: #fff;
+      margin-right: 15px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+      background: #fff;
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    .ad-slot {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: scale(1.03);
+    }
+    .card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+    }
+    .card-content {
+      padding: 15px;
+    }
+    .card-content h3 {
+      margin-top: 0;
+      font-size: 1.2rem;
+    }
+    .card-content p {
+      font-size: 0.9rem;
+      color: #666;
+    }
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    footer a {
+      color: #ddd;
+      text-decoration: none;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Misterios del Mundo</h1>
     <nav>
       <a href="index.html">Inicio</a>
-      <a href="articles.html">Artículos</a>
-      <a href="about.html">Sobre Nosotros</a>
-      <a href="contact.html">Contacto</a>
+      <a href="articulos.html">Artículos</a>
+      <a href="sobre.html">Sobre Nosotros</a>
+      <a href="contacto.html">Contacto</a>
     </nav>
   </header>
- <!-- ====== A: Anuncio justo después del header ====== -->
-  <div class="ad-slot ad-after-header" aria-hidden="true">
-    <!-- Bloque adaptativo (AD UNIT 1) -->
+
+  <!-- Anuncio: después del header -->
+  <div class="ad-slot">
     <ins class="adsbygoogle"
          style="display:block"
          data-ad-client="ca-pub-7120787016677328"
-         data-ad-slot="6403971560"
+         data-ad-slot="4724058384"
          data-ad-format="auto"
          data-full-width-responsive="true"></ins>
     <script>
       (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
-  </div> 
+  </div>
+
   <main>
     <h1>Bienvenido al rincón de lo inexplicable</h1>
+    <p style="text-align:center; max-width: 700px; margin:auto;">
+      Misterios del Mundo reúne relatos, enigmas y fenómenos paranormales que desafían la lógica.  
+      Explora nuestras historias y adéntrate en lo desconocido.
+    </p>
 
-    <p>Aquí exploramos historias de misterio, fenómenos paranormales y sucesos que aún no tienen explicación.</p>
-
-    <!-- ====== B: Anuncio dentro del contenido / después del primer párrafo ====== -->
-    <div class="ad-slot ad-mid-content" aria-hidden="true">
-      <!-- Bloque adaptativo (AD UNIT 2) -->
+    <!-- Anuncio: dentro del contenido -->
+    <div class="ad-slot">
       <ins class="adsbygoogle"
            style="display:block"
            data-ad-client="ca-pub-7120787016677328"
-           data-ad-slot="5007129417"
+           data-ad-slot="1582889727"
            data-ad-format="auto"
            data-full-width-responsive="true"></ins>
       <script>
         (adsbygoogle = window.adsbygoogle || []).push({});
       </script>
-    </div>   
-    <section class="recent-articles">
-  <h2>Artículos recientes</h2>
-  <div class="article-list">
-    <article>
-      <a href="articles.html#triangulo‑de‑las‑bermudas">
-        <img src="images/triangulo‑thumb.jpg" alt="Triángulo de las Bermudas">
-        <h3>El Triángulo de las Bermudas</h3>
-        <p>Resumen breve del artículo…</p>
-      </a>
-    </article>
-    <!-- más artículos similares -->
-  </div>
-</section>
-
-    <!-- BLOQUE DE ANUNCIO: reemplaza data-ad-client y data-ad-slot por tus valores reales -->
-    <div class="ad-container">
-    <ins class="adsbygoogle"
-         style="display:block; text-align:center;"
-         data-ad-client="ca-pub-7120787016677328"
-         data-ad-slot="5007129417"
-         data-ad-format="auto"
-         data-full-width-responsive="true"></ins>
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
     </div>
 
-    <section class="featured">
-      <h3>Artículo destacado: El Triángulo de las Bermudas</h3>
-      <p>Descubre historias, teorías y las explicaciones científicas más razonadas sobre uno de los lugares más citados en relatos de misterio.</p>
-      <p><a href="articles.html">Leer más artículos</a></p>
-    </section>
-
+    <h2>Artículos recientes</h2>
+    <div class="grid">
+      <!-- Tarjeta 1 -->
+      <div class="card">
+        <img src="https://picsum.photos/400/200?random=1" alt="Triángulo de las Bermudas">
+        <div class="card-content">
+          <h3>El Triángulo de las Bermudas</h3>
+          <p>Descubre historias y teorías sobre uno de los lugares más enigmáticos del planeta.</p>
+          <a href="articulos.html">Leer más</a>
+        </div>
+      </div>
+      <!-- Tarjeta 2 -->
+      <div class="card">
+        <img src="https://picsum.photos/400/200?random=2" alt="El misterio de las Pirámides">
+        <div class="card-content">
+          <h3>El misterio de las Pirámides</h3>
+          <p>Secretos y teorías sobre la construcción de las maravillas del Antiguo Egipto.</p>
+          <a href="articulos.html">Leer más</a>
+        </div>
+      </div>
+      <!-- Tarjeta 3 -->
+      <div class="card">
+        <img src="https://picsum.photos/400/200?random=3" alt="Avistamientos OVNI">
+        <div class="card-content">
+          <h3>Avistamientos OVNI</h3>
+          <p>Casos documentados y testimonios sobre encuentros cercanos con lo inexplicable.</p>
+          <a href="articulos.html">Leer más</a>
+        </div>
+      </div>
+      <!-- Tarjeta 4 -->
+      <div class="card">
+        <img src="https://picsum.photos/400/200?random=4" alt="Criaturas míticas">
+        <div class="card-content">
+          <h3>Criaturas míticas</h3>
+          <p>Leyendas de seres fantásticos que han acompañado a la humanidad desde siempre.</p>
+          <a href="articulos.html">Leer más</a>
+        </div>
+      </div>
+    </div>
   </main>
-<!-- ====== C: Anuncio antes del footer ====== -->
-  <div class="ad-slot ad-before-footer" aria-hidden="true">
-    <!-- Bloque adaptativo (AD UNIT 3) -->
+
+  <!-- Anuncio: antes del footer -->
+  <div class="ad-slot">
     <ins class="adsbygoogle"
          style="display:block"
          data-ad-client="ca-pub-7120787016677328"
@@ -110,8 +187,9 @@
       (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
   </div>
+
   <footer>
-    <p>© 2025 Misterios del Mundo | <a href="privacy.html">Política de Privacidad</a></p>
+    © 2025 Misterios del Mundo | <a href="privacy.html">Política de Privacidad</a>
   </footer>
 </body>
 </html>
