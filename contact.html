@@ -8,20 +8,35 @@
 </head>
 <body>
   <header>
-    <h1>Contacto</h1>
+    <h1>Misterios del Mundo</h1>
     <nav>
       <a href="index.html">Inicio</a>
-      <a href="articles.html">Artículos</a>
+      <a href="articulos.html">Artículos</a>
       <a href="about.html">Sobre Nosotros</a>
       <a href="contact.html">Contacto</a>
     </nav>
   </header>
+
   <main>
-    <p>Si quieres compartir una historia, proponer contenido o anunciarte, escríbenos a: <strong>contacto@misteriosdelmundo.com</strong>.</p>
-    <p>Para consultas técnicas sobre el sitio: <strong>webmaster@misteriosdelmundo.com</strong>.</p>
+    <h2>Contacto</h2>
+    <p>Si deseas ponerte en contacto con nosotros, rellena el siguiente formulario:</p>
+
+    <form action="mailto:Daser3126@gmail.com" method="post" enctype="text/plain">
+      <label for="nombre">Nombre:</label><br>
+      <input type="text" id="nombre" name="nombre" required><br><br>
+
+      <label for="email">Correo electrónico:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="mensaje">Mensaje:</label><br>
+      <textarea id="mensaje" name="mensaje" rows="5" required></textarea><br><br>
+
+      <button type="submit">Enviar</button>
+    </form>
   </main>
+
   <footer>
-    <p>© 2025 Misterios del Mundo | <a href="privacy.html">Política de Privacidad</a></p>
+    <p>© 2025 Misterios del Mundo</p>
   </footer>
 </body>
 </html>
