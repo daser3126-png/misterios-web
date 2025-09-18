@@ -101,5 +101,15 @@
 
     <p>© 2025 Misterios del Mundo | <a href="privacy.html">Política de Privacidad</a></p>
   </footer>
+  <script>
+  function abrirLightbox(elemento) {
+    document.getElementById("lightbox").style.display = "block";
+    document.getElementById("imagenAmpliada").src = elemento.src;
+  }
+
+  function cerrarLightbox() {
+    document.getElementById("lightbox").style.display = "none";
+  }
+</script>
 </body>
 </html>
