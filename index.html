@@ -39,11 +39,14 @@
       <h2>Bienvenido al rincón de lo inexplicable</h2>
       <p>Aquí exploramos historias de misterio, fenómenos paranormales y sucesos que aún no tienen explicación. Navega nuestros artículos para descubrir relatos detallados y análisis.</p>
     </section>
-<div style="text-align:center; margin:20px 0;">
-  <a href="articulos.html" style="display:inline-block; padding:12px 20px; background:#222; color:#fff; text-decoration:none; border-radius:6px;">
-    Ver la segunda parte →
-  </a>
-</div>   
+
+    <!-- 🚀 Botón destacado de SEGUNDA PARTE (más arriba y visible) -->
+    <div style="text-align:center; margin:20px 0;">
+      <a href="articulos.html" style="display:inline-block; padding:12px 20px; background:#222; color:#fff; text-decoration:none; border-radius:6px;">
+        Ver la segunda parte →
+      </a>
+    </div>   
+
     <!-- 📌 Anuncio en main -->
     <div class="ad-container">
       <ins class="adsbygoogle"
@@ -60,33 +63,25 @@
     <section class="featured">
       <h3>Artículo destacado: El Triángulo de las Bermudas</h3>
       <p>Descubre historias, teorías y las explicaciones científicas más razonadas sobre uno de los lugares más citados en relatos de misterio.</p>
-      <p><a href="articles.html">Leer más artículos</a></p>
+      <p><a href="articulos.html">Leer más artículos</a></p>
     </section>
-<!-- Galería de Imágenes -->
-<section class="galeria">
-  <h2>Galería de Misterios</h2>
-  <div class="imagenes">
-    <img src="img/misterio1.jpg" alt="Imagen Misterio 1" onclick="abrirLightbox(this)">
-    <img src="img/misterio2.jpg" alt="Imagen Misterio 2" onclick="abrirLightbox(this)">
-    <img src="img/misterio3.jpg" alt="Imagen Misterio 3" onclick="abrirLightbox(this)">
-    <img src="img/misterio4.jpg" alt="Imagen Misterio 4" onclick="abrirLightbox(this)">
-  </div>
-</section>
 
-<!-- Lightbox -->
-<div id="lightbox" class="lightbox" onclick="cerrarLightbox()">
-  <span class="cerrar">&times;</span>
-  <img id="imagenAmpliada">
-  <div class="anuncio">
-    <p>🔥 Anuncio: Descubre más misterios en nuestra sección especial 🔮</p>
-    <a href="articulos.html" class="btn-anuncio">Ver ahora</a>
-  </div>
-</div>  
-    <!-- 🚀 Botón destacado de SEGUNDA PARTE -->
-    <section class="extra">
-      <a href="segunda-parte.html" class="extra-link">👉 SEGUNDA PARTE AQUÍ</a>
-      <p style="text-align:center;">Continúa descubriendo más sobre este misterio en nuestra segunda parte.</p>
+    <!-- Galería de Imágenes -->
+    <section class="galeria">
+      <h2>Galería de Misterios</h2>
+      <div class="imagenes">
+        <img src="img/misterio1.jpg" alt="Imagen Misterio 1" onclick="abrirLightbox(this)">
+        <img src="img/misterio2.jpg" alt="Imagen Misterio 2" onclick="abrirLightbox(this)">
+        <img src="img/misterio3.jpg" alt="Imagen Misterio 3" onclick="abrirLightbox(this)">
+        <img src="img/misterio4.jpg" alt="Imagen Misterio 4" onclick="abrirLightbox(this)">
+      </div>
     </section>
+
+    <!-- Lightbox limpio (sin texto de “anuncio”) -->
+    <div id="lightbox" class="lightbox" onclick="cerrarLightbox()">
+      <span class="cerrar">&times;</span>
+      <img id="imagenAmpliada">
+    </div>
   </main>
 
   <footer>
@@ -105,15 +100,16 @@
 
     <p>© 2025 Misterios del Mundo | <a href="privacy.html">Política de Privacidad</a></p>
   </footer>
-  <script>
-  function abrirLightbox(elemento) {
-    document.getElementById("lightbox").style.display = "block";
-    document.getElementById("imagenAmpliada").src = elemento.src;
-  }
 
-  function cerrarLightbox() {
-    document.getElementById("lightbox").style.display = "none";
-  }
-</script>
+  <script>
+    function abrirLightbox(elemento) {
+      document.getElementById("lightbox").style.display = "block";
+      document.getElementById("imagenAmpliada").src = elemento.src;
+    }
+
+    function cerrarLightbox() {
+      document.getElementById("lightbox").style.display = "none";
+    }
+  </script>
 </body>
 </html>
